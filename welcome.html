@@ -11,17 +11,14 @@
     <!-- style -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/respponsive.css">
-
     
     <!-- fontawsome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
-
 </head>
 <body >
 
-        <!-- <div class="container"> -->
         <!-- navbar -->
         <nav class="navbar navbar-expand-lg navbar-light bg-transparent mt-3 scNav" style="z-index: 100;">
         
@@ -54,57 +51,47 @@
 
             <div class="collapse navbar-collapse" id="navbarToggler">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item  mr-4">
-                        <a class="nav-link nav-link-3 mt-2" href="#">Request Access</a>
+                    <li class="nav-item mr-4">
+                        <p class="user" >David Snajder</p>
+                        <a class="nav-link company" href="#">seedcode</a>
                     </li>
                     <li class="nav-item">
                         <button type="button " class="btn btn-light scButton-2" >
-                            Log In
+                            Log Out
                         </button>
                     </li>
                 </ul>
             </div>
         </nav>
-    <!-- </div> -->
 
       <div class="body">
-        <h1 class=" display-1 mt-5 topHeading" style="">Choose your </br>account password</h1>
-        <h5 class="mt-4 mb-5 ml-2" >Great, your access request has been approved.</br>
-            Please secure your account.</h5>
+        <h1 class=" display-1 mt-5 topHeading" >Welcome to </br>
+            Trial Risk Index</h1>
+        <h5 class="mt-4 mb-4 ml-2" >Hello! Thank you for joined us. Please select a presentation from the
+            list below to learn more about our product. </br> registration, you’ll receive an email with login credentials.</h5>
 
-        <form class="needs-validation" novalidate>
-            <div class="form-row">
-                <div class="col-md-4 mb-4 ">
-                <div class="input-group" for="validationCustomUsername">
-                    <div class="input-group-prepend">
-                    <span class="input-group-text" id="inputGroupPrepend"><i class="fa fa-key font2 mr-4" ></i>
-                    </span>
-                    </div>
-                    <input type="password" class="form-control py-3" id="validationCustomUsername" placeholder="Password" aria-describedby="inputGroupPrepend" required>
-                    <div class="invalid-feedback">
-                        Please type in a Password.
-                    </div>
+            <div class="row" id="myDIV">
+                <div class="d-flex mr-2 mb-2 text-center align-items-center boxText active">
+                    <p class="px-5" style="font-size: 36px; color: white;">Trial Risk Index
+                        Presentation</br> <i class="fa fa-arrow-right leftArrow" ></i></p> 
                 </div>
+                <div class="d-flex mr-2 mb-2 text-center align-items-center boxText">
+                    <p class="px-5" style="font-size: 36px; color: white;">Another
+                        Presentation</br> <i class="fa fa-arrow-right leftArrow" hidden="true"></i></p> 
                 </div>
-                <div class="col-md-4 mb-4 ">
-                    <div class="input-group" for="validationCustomUsername">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text" id="inputGroupPrepend"><i class="fa fa-key font2 mr-4" ></i></span>
-                    </div>
-                    <input type="password" class="form-control py-3" id="validationCustomUsername" placeholder="Confirm Password" aria-describedby="inputGroupPrepend" required>
-                    <div class="invalid-feedback">
-                        Please type in a Confirm Password
-                    </div>
-                    </div>
+                <div class="d-flex mr-2 mb-2 text-center align-items-center boxText">
+                    <p class="px-5" style="font-size: 36px; color: white; " >Third 
+                        Presentation</br> <i class="fa fa-arrow-right leftArrow" hidden="true"></i></p> 
                 </div>
+              
+                
+                
             </div>
-            <button class="btn btn-primary scButton-lg mt-5" type="submit">Set password and log in</button>
-        </form>
-</div>
 
-
-
+        <button class="btn btn-primary scButton-grey mt-5 mr-4" type="button">Pre</button>
+        <button class="btn btn-primary scButton-grey mt-5" type="button">Next</button>
      
+</div>
     
 </body>
 

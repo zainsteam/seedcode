@@ -151,6 +151,10 @@ header {
     color: white;
     margin-right: 5%;
   }
+  .leftArrow{
+    font-size:24px;
+    color: white;
+  }
   .font2{
     font-size:24px;
     color:black;
@@ -165,6 +169,14 @@ header {
     color: #255DD8 !important;
   }
 
+  .company{
+    color: #255DD8 !important;
+    float: right;
+    padding: 0;
+
+  }
+
+
   .scButton-2{
     width:126px;
     height: 56px;
@@ -172,7 +184,7 @@ header {
     background-color: #255DD8;
 }
 .scButton-grey{
-  width:136px;
+  width:auto;
   height: 56px;
   color: black;
   background-color: #F7F8FC;
@@ -224,10 +236,7 @@ display: none;
 }
 
 /* remember me */
-.custom-control-label::before {
- 
-  background-color: #;
-}
+
 
 .custom-control-input.is-valid~.custom-control-label, .was-validated .custom-control-input:valid~.custom-control-label {
   color: #000000;
@@ -238,4 +247,35 @@ display: none;
 
 .custom-control-input.is-valid:checked~.custom-control-label::before, .was-validated .custom-control-input:valid:checked~.custom-control-label::before {
   background-color: #255dd8;
+}
+
+/* welcome page */
+.user{
+  font-size: 20px; 
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.boxText{
+  background-color: #5A9BD5; 
+  width: 352px ;
+  height:390px;
+
+}
+.active{
+  background-color: #255DD8;    
+}
+
+.slideText{
+  font-family: Archivo;
+font-style: normal;
+font-weight: bold;
+font-size: 80px;
+line-height: 87px;
+text-align: center;
+color: #255DD8;
+}
+.slideDiv{
+  height:70vh !important;
+  background-color: #F7F8FC;
 }
