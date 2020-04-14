@@ -1,4 +1,8 @@
 /* landing page Css */
+
+*{
+  font-family: 'Archivo', sans-serif;
+}
 /* navbar  */
 .logo
 {
@@ -9,6 +13,18 @@
     width:136px;
     height: 56px;
     color: #255DD8;
+    -webkit-transition-duration: 0.5s;
+    -webkit-transform-origin: 50% 50%;
+    -webkit-transition-timing-function: ease-out;
+    -webkit-box-shadow: 0px -50px 0 0 white inset , 0px 50px 0 white inset;
+
+}
+
+.scButton:hover{
+  -webkit-box-shadow: 0px 0px 0 0px white inset , 0px 0px 0 0px white inset; 
+  color: white;
+  background-color:#255DD8 ;
+
 }
 
 .nav-link-2{
@@ -118,7 +134,6 @@ header {
   }
 
   .display-text{
-    font-family: Archivo;
     font-style: normal;
     font-weight: bold;
     font-size:100px;
@@ -130,7 +145,18 @@ header {
       color: white;
       width:265px;
       height: 65px;
-      font-size: 20px;;
+      font-size: 20px;
+      -webkit-transition-duration: 0.5s;
+      -webkit-transform-origin: 50% 50%;
+      -webkit-transition-timing-function: ease-out;
+      -webkit-box-shadow: 0px -50px 0 0 transparent inset , 0px 50px 0 transparent inset;  
+    }
+
+  .scButton2:hover{
+    -webkit-box-shadow: 0px 0px 0 0px white inset , 0px 0px 0 0px white inset; 
+    color: #255DD8;
+    background-color:white ;
+
   }
   .scText{
     margin-left: 12%;
@@ -181,14 +207,34 @@ header {
     width:126px;
     height: 56px;
     color: white;
-    background-color: #255DD8;
+    -webkit-transition-duration: 0.5s;
+    -webkit-transform-origin: 50% 50%;
+    -webkit-transition-timing-function: ease-out;
+    -webkit-box-shadow: 0px -50px 0 0 #255DD8 inset , 0px 50px 0 #255DD8 inset;
+}
+.scButton-2:hover{
+  -webkit-box-shadow: 0px 0px 0 0px white inset , 0px 0px 0 0px white inset; 
+  color: #255DD8;
+  border: 1px solid #255DD8;
+  background-color:white ;
 }
 .scButton-grey{
   width:auto;
-  height: 56px;
+  min-width: 58px;
+  height: 66px;
   color: black;
   background-color: #F7F8FC;
   border: none;
+  -webkit-transition-duration: 0.5s;
+  -webkit-transform-origin: 50% 50%;
+  -webkit-transition-timing-function: ease-out;
+  -webkit-box-shadow: 0px -50px 0 0 #F7F8FC inset , 0px 50px 0 #F7F8FC inset;
+}
+.scButton-grey:hover{
+  -webkit-box-shadow: 0px 0px 0 0px white inset , 0px 0px 0 0px White inset; 
+  color: white;
+  border: 1px solid #255DD8;
+  background-color:#255DD8 ;
 }
 
 .scResbutton-2 > i{ 
@@ -207,9 +253,19 @@ display: none;
 }
 
 .scButton-lg{
-  width: 223px;
+  width: auto;
   height: 66px;
   background-color: #255DD8  ;
+  -webkit-transition-duration: 0.5s;
+  -webkit-transform-origin: 50% 50%;
+  -webkit-transition-timing-function: ease-out;
+  -webkit-box-shadow: 0px -50px 0 0 #255DD8 inset , 0px 50px 0 #255DD8 inset;
+}
+.scButton-lg:hover{
+  -webkit-box-shadow: 0px 0px 0 0px #255DD8 inset , 0px 0px 0 0px #255DD8 inset; 
+  color: #255DD8;
+  border: 1px solid #255DD8;
+  background-color:white ;
 }
 .body{
   margin-left:12%;
@@ -265,7 +321,10 @@ display: none;
   background-color: #5A9BD5; 
   width: 352px ;
   height:390px;
-
+  transition: background-color 1s ;
+}
+.boxText:hover{
+  background-color: #255DD8 ;
 }
 .active{
   background-color: #255DD8;    
