@@ -235,6 +235,11 @@ display: none;
   font-weight: 600;
 }
 
+.wrongHeading{
+  color: #FF3131; 
+  font-weight: 600;
+}
+
 /* remember me */
 
 

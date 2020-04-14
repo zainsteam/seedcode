@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- bootstrap 4 css cdn -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- style -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/respponsive.css">
+    
+    <!-- fontawsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body >
+
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent mt-3 scNav" style="z-index: 100;">
+        
+            <img class="logo"
+                src="assets/Logo2.svg" 
+                alt="seedcode"
+                 />
+                 
+            <div id="mySidenav" class="sidenav">
+                <img class="logo d-inline "
+                src="assets/Logo2.svg" 
+                alt="seedcode"
+                 />
+                <a href="javascript:void(0)" class="d-inline closebtn" onclick="closeNav()">&times;</a>
+                <div class="" style="margin-top: 50%;">
+                    <a href="#">Request Access</a>
+                    <a href="#"  >log In</a>
+                </div>
+                <footer class="footer scNav">
+                    <i class="fa fa-facebook font2 mr-4" ></i>
+                    <i class="fa fa-twitter font2 mr-4" ></i>
+                    <i class="fa fa-instagram font2 mr-4" ></i>
+                    <i class="fa fa-linkedin font2 mr-4" ></i>
+                  </footer>
+            </div>
+            
+            <button class="btn btn-light ml-auto scResbutton-2" type="button"  onclick="openNav()">
+                <i class="fa fa-navicon "></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarToggler">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item  mr-4">
+                        <a class="nav-link nav-link-3 mt-2" href="#">Request Access</a>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button " class="btn btn-light scButton-2" >
+                            Log In
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+      <div class="body">
+        <h1 class=" display-1 mt-5 wrongHeading" >Oops.</br>
+            Something went wrong.</h1>
+        <h5 class="mt-4 mb-4 ml-2" >Something went wrong and we couldn’t proccess your request.</br>
+            Please go back to the previous page and try again.</h5>
+
+        <button class="btn btn-primary scButton-grey mt-5" type="submit">Go back</button>
+     
+</div>
+    
+</body>
+
+<!-- custom script -->
+<script src="js/script.js"></script>
+
+<!-- bootstrap 4 js cdn -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</html>
