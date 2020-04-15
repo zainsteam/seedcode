@@ -1,30 +1,34 @@
 
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (max-width: 1200px) { 
+  .display-text{
+    font-size: 6vw;
+  }
 }
 
 /* // Large devices (desktops, 992px and up) */
 @media (max-width: 992px) { 
-  .scResbutton-2{
-    display: block;
-  }
   .scResbutton{
     display: block;
   }
-  .display-text{
-    font-size: 72px !important;
+   .scResbutton-2{
+    display: block;
   }
+  .display-text{
+  font-size: 8vw;
+  }
+  /*
   .topHeading{
     font-size: 72px;
   }
   .slideText{
     font-size: 46px;
-  }
+  } */
  }
 
  /* // Medium devices (tablets, 768px and up) */
 @media (max-width: 768px) { 
-  .display-text{
+  /* .display-text{
     font-size: 42px !important;
   }
   .topHeading{
@@ -32,27 +36,30 @@
   }
   .slideText{
     font-size: 36px;
-  }
+  } */
 
  }
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) { 
 
-   
-    .logo{
+  .display-text{
+    font-size: 11vw !important;
+  }
+  
+     .logo{
       width: 130px;
       height: 36px;
     }
     /* .topHeading{
       font-size: 47px;
-    } */
-    .slideText{
+    }  commented */
+    /* .slideText{
       font-size: 36px;
     }
     .wrongHeading{
       font-size: 47px;
-  }
+  }  */
  }
 
 
